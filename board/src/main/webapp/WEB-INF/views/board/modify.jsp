@@ -30,23 +30,26 @@
 		    	</ul>
 			</div>
 		</nav>
-		<div class="container">
-			<table class="table table-hover" style="text-align: center; border: 1px solid #ADD8E6; margin-top: 10px;">
+		<form method="post" style="padding: 30px;">
+			<table class="table" style="text-align: center; border: 1px solid #ADD8E6;">
+				<thead>
+					<tr>
+					<th style="background-color: #ceffce; text-align:center">글쓰기</th>
+					</tr>
+				</thead>
 				<tbody>
 					<tr>
-						<td style="width: 15%;">글 제목</td>
-						<td colspan="4" style="text-align: left;">${view.title}</td>
+						<td><input type="text" class="form-control" placeholder="글 제목" name="title" maxlength="50"></td>
 					</tr>
 					<tr>
-						<td>작성자</td>
-						<td colspan="1" style="text-align: left";>${view.writer}</td>
+						<td><input type="text" class="form-control" placeholder="작성자" name="writer" maxlength="50"></td>
 					</tr>
 					<tr>
-						<td>내용</td>
-						<td colspan="4" style="min-height: 200px; text-align: left">${view.content}</td>
+						<td><textarea class="form-control" id="textArea" placeholder="글 내용" name="content" maxlength="2048" style="height: 350px;"></textarea></td>
 					</tr>
 				</tbody>
 			</table>
-		</div>
+			<input type="submit" class="btn float-right" value="글쓰기">
+		</form>
 	</body>
 </html>

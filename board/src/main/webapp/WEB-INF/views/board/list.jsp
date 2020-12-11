@@ -47,7 +47,7 @@
 						<c:forEach items="${list}" var="list">
 							<tr>
 								<td style="width: 7%; border-bottom: 1px solid #000000;">${list.bno}</td>
-								<td style="width: 53%; text-align: left; border-bottom: 1px solid #000000;">${list.title}</td>
+								<td style="width: 53%; text-align: left; border-bottom: 1px solid #000000;"><a href="/board/view?bno=${list.bno}">${list.title}</a></td>
 								<td style="width: 20%; border-bottom: 1px solid #000000;"><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${list.regDate }"/></td>
 								<td style="width: 10%; text-align: center; border-bottom: 1px solid #000000;">${list.writer}</td>
 								<td style="width: 10%; text-align: center; border-bottom: 1px solid #000000;">${list.viewCnt}</td>
