@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.btn {
+		border: 1px solid #00BFFF;
+		background-color: rgba(0,0,0,0);
+		font-size: 16px;
+		color: #00BFFF;
+		padding: 5px;
+		border-top-right-radius: 5px; 
+		border-bottom-right-radius: 5px; 
+		margin-left:5px;
+		}
+		
+.btn:hover {
+	color: white;
+	background-color: #00BFFF;
+}
+
+.dropdown-item {
+		color: #000000;
+		background-color: #FFFFFF;
+		font-size: 14px;
+}
+
+.dropdown-item:hover {
+	text-decoration: underline;
+	color: white;
+	background-color: #00BFFF;
+	font-size: 22px;
+}
+
+
+
+.nav-item:hover {
+			text-decoration: underline;
+			color: black;
+			font-size: 26px;
+		}
+		
+.nav-item {
+			color: black;
+			font-size: 20px;
+		}
+		
+#top_nav {
+	 background-color: #ffffff;
+	 border-bottom: 2px solid black;
+}
+
+
+
+#textArea { 
+					border: 0px;
+					background-color: transparent;
+					width:100% ; 
+		    		resize: none;
+		    		outline-color:transparent; 
+		    		overflow:visible; 
+		    		text-overflow:ellipsis; 
+		    		overflow-x:hidden; 
+		    		overflow-y:auto;
+		    		}
+		    		
+.box-radius {
+		   padding: 10px;
+		   border: 1px solid #00BFFF;
+		   border-radius: 15px;
+		   -moz-border-radius: 15px;
+		   -webkit-border-radius: 15px;
+		   -o-border-radius: 15px;
+		   margin-bottom : 10px;
+		}
+		
+.box-radius2 {
+		   padding: 10px;
+		   border: 1px solid #009900;
+		   border-radius: 15px;
+		   -moz-border-radius: 15px;
+		   -webkit-border-radius: 15px;
+		   -o-border-radius: 15px;
+		   margin-bottom : 10px;
+		}
+		
+#container {
+		  display: flex;
+		}
+		    		
+
