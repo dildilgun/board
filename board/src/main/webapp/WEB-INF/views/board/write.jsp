@@ -44,8 +44,8 @@
 					<tr>
 						<td><input type="text" class="form-control" placeholder="작성자" name="writer" maxlength="50"></td>
 					</tr>
-					<tr>
-						<td><textarea class="form-control" id="textArea" placeholder="글 내용" name="content" maxlength="2048" style="height: 350px;"></textarea></td>
+					<tr style="height: 350px;">
+						<td><textarea class="form-control" id="textArea" placeholder="글 내용" name="content" maxlength="2048"></textarea></td>
 					</tr>
 				</tbody>
 			</table>

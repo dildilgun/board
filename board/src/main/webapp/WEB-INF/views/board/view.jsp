@@ -41,12 +41,15 @@
 						<td>작성자</td>
 						<td colspan="1" style="text-align: left";>${view.writer}</td>
 					</tr>
-					<tr>
+					<tr style="height: 350px;">
 						<td>내용</td>
 						<td colspan="4" style="min-height: 200px; text-align: left">${view.content}</td>
 					</tr>
 				</tbody>
 			</table>
+			<button class="btn float-right" onclick="location.href='/board/write'">글쓰기</button>
+			<button class="btn float-right" onclick="location.href='/board/modify?bno=${view.bno}'">수정</button>
+			<button class="btn float-right" onclick="location.href='/board/delete?bno=${view.bno}'">삭제</button>
 		</div>
 	</body>
 </html>

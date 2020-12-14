@@ -39,17 +39,18 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><input type="text" class="form-control" placeholder="글 제목" name="title" maxlength="50"></td>
+						<td><input type="text" class="form-control" name="title" value="${view.title}" maxlength="50"></td>
 					</tr>
 					<tr>
-						<td><input type="text" class="form-control" placeholder="작성자" name="writer" maxlength="50"></td>
+						<td><input type="text" class="form-control" name="writer" value="${view.writer}" maxlength="50"></td>
 					</tr>
 					<tr>
-						<td><textarea class="form-control" id="textArea" placeholder="글 내용" name="content" maxlength="2048" style="height: 350px;"></textarea></td>
+						<td><textarea class="form-control" id="textArea" name="content" maxlength="2048" 
+						style="height: 350px;">${view.content}</textarea></td>
 					</tr>
 				</tbody>
 			</table>
-			<input type="submit" class="btn float-right" value="글쓰기">
+			<input type="submit" class="btn float-right" value="수정">
 		</form>
 	</body>
 </html>
